@@ -55,7 +55,7 @@ arrival_delay = st.number_input("Arrival Delay", min_value=0)
 
 # Ratings (1-5)
 def rating(label):
-    return st.number_input(label, min_value=1, max_value=5, step=1)
+    return st.slider(label, min_value=1, max_value=5, step=1)
 
 departure_arrival_time_convenience = rating("Departure and Arrival Time Convenience")
 ease_of_online_booking = rating("Ease of Online Booking")

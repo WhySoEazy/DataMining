@@ -49,7 +49,7 @@ selected_1 = st.selectbox(label=label_2 , options=service)
 service_rank = df[selected_1].value_counts()
 st.bar_chart(service_rank)
 
-#4
+#4 Optional
 st.header("Age")
 label1 = 'Select Age: '
 label2 = 'Select Customer Type:	'
@@ -80,8 +80,7 @@ elif selected1 == 'Children (1-15)':
     age_counts = age['Age'].value_counts().sort_index()
     st.bar_chart(age_counts)
 
-# Headmap
-# df = df.drop(['ID'],axis=1)
+#5 Headmap
 catcol = []
 numcol = []
 
