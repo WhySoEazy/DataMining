@@ -1,0 +1,38 @@
+1. Khác nhau giũa data warehouse vs database
+
+** Khác nhau :
+
+*Data type: kiểu dữ liệu
+data warehouse :  vừa dữ liệu cũ, dl lịch sử. dữ liệu cũ là dl có thể đã hết hạn
+database : dliệu vừa đc cập nhật theo real-time, dl mới
+
+*Mục đích :
+Dw : đc thiết kế cho mục ích phân tích dl 
+DB : ....... thu thập dữ liệu, hướng đến việc giao dịch và các hoạt động vận hành
+
+*Query type : loại truy vấn
+
+DW: dùng truy vấn phức tạp để phân tích chuyên sâu,
+DB :  truy vấn giao dịch đơn giản
+
+** Giống nhau:
+
+Lưu Trữ Dữ Liệu: Cả hai đều được sử dụng để lưu trữ dữ liệu từ nhiều nguồn khác nhau, bao gồm thông tin khách hàng, dữ liệu giao dịch, dữ liệu sản phẩm, v.v.
+
+Quản Lý Dữ Liệu: Cả hai đều cung cấp các công cụ và giao diện để quản lý và truy xuất dữ liệu, bao gồm thêm, sửa, xóa và truy vấn dữ liệu.
+
+Phân Quyền Truy Cập: Cả hai có khả năng kiểm soát quyền truy cập vào dữ liệu, đảm bảo rằng chỉ những người được ủy quyền mới có thể truy cập vào dữ liệu cụ thể.
+
+2.
+characterization:
+is a technique for transforming raw data into valuable information. Characterization effectively creates condensed representations of whatever data that is obscured
+
+discrimination: 
+also known as algorithmic discrimination, is a bias that emerges when predetermined data kinds or data sources are treated differently than others, either purposefully or unintentionally
+
+association:
+Finding interesting associations in huge datasets is the goal of association analysis. There are two types of interesting relationships: frequent item sets and association rules. A frequent item set is a group of objects that appear frequently together
+
+correlation :
+investigates the relationship between two or more variables and draws conclusions regarding its strength. Technically, association denotes any relationship between two variables, whereas correlation denotes just a linear relationship
+ 
