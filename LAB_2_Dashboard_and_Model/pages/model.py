@@ -10,7 +10,7 @@ import sklearn
 # Load the dataset
 @st.cache_data
 def load_data():
-    data = pd.read_csv("C:/Users/triet/OneDrive/Documents/DBM302m/Project/archive/AirlineQualityRating.csv")
+    data = pd.read_csv("C:/Users/triet/OneDrive/Desktop/DataMining/LAB_2_Dashboard_and_Model/AirlineQualityRating.csv")
     return data
 
 data = load_data()

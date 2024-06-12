@@ -8,7 +8,7 @@ import altair as alt
 st.title("Airline Quality Rating")
 
 st.header("Data Overview")
-path = "AirlineQualityRating.csv"
+path = "C:/Users/triet/OneDrive/Desktop/DataMining/LAB_2_Dashboard_and_Model/AirlineQualityRating.csv"
 df = pd.read_csv(path ,  index_col=0)
 df
 
